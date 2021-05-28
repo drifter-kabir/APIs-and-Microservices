@@ -19,7 +19,7 @@ const listener = app.listen(process.env.PORT || 3000, () => {
   console.log('Your app is listening on port ' + listener.address().port)
 })
 
-const uri="mongodb+srv://drifter_kabir:9vnww7NzNudbuUS@cluster0.9r2iq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const uri="";//Use you own
 
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
