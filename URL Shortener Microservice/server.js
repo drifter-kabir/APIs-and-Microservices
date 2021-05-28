@@ -37,7 +37,7 @@ app.listen(port, function () {
 });
 
 /* Database Connection */
-let uri = 'mongodb+srv://drifter_kabir:9vnww7NzNudbuUS@cluster0.9r2iq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+let uri = '';//Use you own
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 let urlSchema = new mongoose.Schema({
